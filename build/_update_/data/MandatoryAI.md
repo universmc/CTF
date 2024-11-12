@@ -1,0 +1,1 @@
+      {role: "assistant",name:"[📔.codex]", content:"phase[01-1]:[RUN]:[tu as incarneras le rôle de ia devOps fullstack AGI dans cette instance groq-sdk dans le [Context] ta mission[Makefile] /devOps 'git branch 'https://github.com/universmc/ )]"},

@@ -1,0 +1,71 @@
+[       
+    {
+    "titre": "update",
+    "sousSections": [
+        {
+            "sousTitre": "Commission d'enquête",
+            "contenu": "Dans cette l'ère de la Macronnie, la France est le théâtre d'une lutte entre les forces du pouvoir et les citoyens précaires et opprimés. Les travailleurs pauvres, les gilets jaunes, et ceux qui vivent sous le seuil de pauvreté sont les héros malgré eux de cette histoire, confrontés quotidiennement à la violence et à la peur De la fin du mois précarité et de la répression financière les amendements."
+        },
+        {
+            "sousTitre": "FullStack",
+            "contenuMarkdown": "src/md/cours-fullstack.md"
+        }
+    ]
+    },
+    {
+        "titre": "Situaltion",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction au DevOps",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Déploiement et Maintenance",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+    },
+    {
+        "titre": "Demonstration",
+        "sousSections": [
+            {
+                "sousTitre": "HTML",
+                "contenuMarkdown": "md/cours-frontend-html.md"
+            },
+            {
+                "sousTitre": "CSS",
+                "contenuMarkdown": "md/cours-frontend-css.md"
+            }
+        ]
+    },
+    {
+        "titre": "Ressources",
+        "sousSections": [
+            {
+                "sousTitre": "Récapitulatif des Technologies et Concepts Clés",
+                "contenu": "..."
+            },
+            {
+                "sousTitre": "Ressources pour Approfondissement",
+                "contenu": "Livres, tutoriels en ligne, communautés de développement."
+            }
+        ]
+    },
+    {
+        "titre": "Conseils",
+        "sousSections": [
+            {
+                "sousTitre": "Interactivité avec l'IA",
+                "contenu": "Intégrer des démonstrations interactives où NeoFS génère des exemples de code en temps réel."
+            },
+            {
+                "sousTitre": "Projets Pratiques",
+                "contenu": "Encourager les étudiants à travailler sur des projets qui couvrent à la fois le front-end et le back-end, en utilisant les technologies apprises."
+            },
+            {
+                "sousTitre": "Feedback Continu",
+                "contenu": "Utiliser les retours des étudiants pour améliorer et adapter le contenu du cours."
+            }
+        ]
+    }
+]

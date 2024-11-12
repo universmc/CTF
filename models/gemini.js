@@ -29,7 +29,7 @@ async function main(
      //  content:"Mike: Traduit en lang:Fr au format & stylus Markdown!"
      //}
     ],
-    model: "mixtral-8x7b-32768",
+    model: "gemma2-9b-it",
     temperature: 0.7,
     max_tokens: 4096,
     top_p: 1,

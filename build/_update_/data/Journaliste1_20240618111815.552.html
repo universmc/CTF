@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mise à jour de l'affaire de scandale politique et financier</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+        }
+        h1, h2 {
+            color: #f0ad4e;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+        }
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mise à jour de l'affaire de scandale politique et financier</h1>
+    ${Dossier.sousSections.map(section =>
+        `<section>
+            <h2>${section.sousTitre}</h2>
+            <div>${groq(section.contenuMarkdown)}</div>
+        </section>`
+    ).join('')}
+</body>
+</html>

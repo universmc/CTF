@@ -1,0 +1,90 @@
+Ici, je vous propose un exemple de feuille de style CSS de base pour une page web. Ce code comprendra des règles de mise en forme pour les éléments typographiques, les couleurs, les marges et les padding. N'hésitez pas à l'adapter à vos besoins et à y ajouter des règles de style supplémentaires.
+
+```css
+/* Réinitialisation des valeurs par défaut */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuration des polices */
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Configuration des liens */
+a{
+    text-decoration: none;
+    color: #0095ff;
+}
+
+/* Configuration des listes */
+ul, ol{
+    list-style: none;
+}
+
+/* Configuration des éléments titres */
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 1rem;
+}
+
+/* Configuration des boutons */
+.button{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    background-color: #0095ff;
+    color: white;
+    text-decoration: none;
+}
+
+/* Configuration des marges et padding */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
+
+.padding-bottom{
+    padding-bottom: 1rem;
+}
+
+/* Configuration des éléments flottants */
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+/* Configuration des éléments clairs */
+.clearfix{
+    clear: both;
+}
+```
+
+N'oubliez pas de lier ce fichier CSS à votre document HTML en utilisant la balise `<link>` dans la section `<head>`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Votre code HTML ici -->
+</body>
+</html>
+```

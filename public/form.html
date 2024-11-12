@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - CTF Enquête Parlementaire</title>
+    <style>
+        body {
+            background-color: #0b132b; /* Thème sombre */
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #1c2541;
+            border: 2px solid #0077b6;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #00aaff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 1.2em;
+            color: #d1d5db;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #0077b6;
+            font-size: 1em;
+        }
+
+        input[type="submit"] {
+            background-color: #00aaff;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0077b6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contactez-nous pour Participer au CTF</h1>
+        <p>Remplissez le formulaire ci-dessous pour nous contacter et obtenir plus d'informations sur l'enquête parlementaire. Vos données seront utilisées pour vous fournir des informations pertinentes sur le CTF.</p>
+
+        <!-- Formulaire de contact avec la méthode mailto -->
+        <form id="myForm">
+            <label for="name">Nom : </label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">E-mail : </label>
+            <input type="email" id="email" name="email" required><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+    <script>
+        // Sélectionne le formulaire
+        const form = document.querySelector('#myForm');
+
+        // Fonction pour créer un lien mailto avec les données du formulaire
+        function sendMail() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+
+            // Crée une chaîne de requête mailto
+            const mailtoLink = `mailto:hubmaster74@gmail.com?subject=Participation%20au%20CTF&body=Nom:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}`;
+
+            // Ouvre le client de messagerie par défaut
+            window.location.href = mailtoLink;
+        }
+
+        // Empêche l'envoi par défaut et envoie les données via mailto
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            sendMail();
+        });
+    </script>
+</body>
+
+</html>
