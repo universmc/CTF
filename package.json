@@ -25,6 +25,12 @@
         "style": "sass --watch src/scss/style.scss src/css/style.css",
         "start": "electron .",
         "reactTest": "npm run build",
+
+        "startC": "react-scripts start",
+        "buildC": "react-scripts build",
+        "testC": "react-scripts test",
+        "ejectC": "react-scripts eject",
+
         "compileSCSS": "sass --watch watch.scss src/css/fib.css",
         "CTF": "sass --watch src/scss/ctf.scss src/css/ctf1.css",
         "scss": "sass --watch await.scss src/css/feuilles_style.css",
@@ -98,9 +104,17 @@
         "p5": "^1.10.0",
         "php": "^1.1.0",
         "pytorch": "^0.0.1",
-        "react": "^18.3.1",
-        "react-dom": "^18",
+
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-ga": "^3.3.0",
+        "react-ga4": "^1.4.1",
+        "react-scripts": "5.0.0",
+        "react-tooltip": "^4.2.21",
+        "web-vitals": "^2.1.4",
         "react-bootstrap": "^2.10.5",
+
+
         "remark": "^15.0.1",
         "sass": "^1.78.0",
         "telegraf": "^4.16.3",
@@ -125,6 +139,24 @@
         "userhome": "^1.0.0",
         "x256": "0.0.2"
     },
+    "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
     "devDependencies": {
         "@babel/preset-env": "^7.25.4",
         "@types/debug": "^4.1.12",
@@ -135,9 +167,10 @@
         "eslint": "^8",
         "eslint-config-next": "14.2.6",
         "json-loader": "^0.5.7",
-        "postcss": "^8",
         "tailwindcss": "^3.4.1",
         "typescript": "^5",
-        "webpack-cli": "^5.1.4"
+        "webpack-cli": "^5.1.4",
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.5"
     }
 }

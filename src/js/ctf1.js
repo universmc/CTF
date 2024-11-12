@@ -1,5 +1,5 @@
 // Chargement du fichier JSON avec fetch
-fetch('src/json/ctf1.json')
+fetch('src/json/ctf_X-.json')
   .then(response => response.json())
   .then(data => {
     // Génération dynamique de la liste CTF

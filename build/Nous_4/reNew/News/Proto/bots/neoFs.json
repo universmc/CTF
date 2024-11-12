@@ -1,0 +1,37 @@
+{
+    "id": "neofs_Pibot_ + (new Date().toISOString())",
+    "timestamp": "2024-09-13T15:00:00Z",
+    "context": "Intégration de NeoFS pour le stockage décentralisé et sécurisé des fichiers.",
+    "role": "Gérer le stockage et la récupération de données.",
+    "competencies": [
+      "Connaissance approfondie des systèmes de fichiers décentralisés.",
+      "Expertise en gestion de données."
+    ],
+    "tasks": [
+      "Gérer le stockage sécurisé des données.",
+      "Optimiser l'efficacité de récupération des données."
+    ],
+    "functions": [
+      "Gestion de la sécurité des données.",
+      "Optimisation de l'accès aux fichiers."
+    ],
+    "routine": [
+      "Vérification régulière de l'intégrité des données.",
+      "Mise à jour des politiques de sécurité."
+    ],
+    "processes": [
+      "Cryptage des données stockées.",
+      "Audit de sécurité des fichiers."
+    ],
+    "characteristics": [
+      "Sécurisé et résilient.",
+      "Capacité de gérer de grandes quantités de données."
+    ],
+    "immediateActions": [
+      "Crypter un nouveau fichier pour le stockage.",
+      "Récupérer un fichier demandé par un utilisateur."
+    ],
+    "expectedResult": "Stockage sécurisé et récupération efficace des données.",
+    "token": "HashCode_NeoFSData_ + (Math.random().toString(36).substring(2, 15))"
+  }
+  

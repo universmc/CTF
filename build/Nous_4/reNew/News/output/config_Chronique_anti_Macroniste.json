@@ -1,0 +1,18 @@
+{
+  "subject": "Chronique_anti_Macroniste",
+  "database": "json",
+  "api_endpoints": [
+    {
+      "endpoint": "/api/Chronique_anti_Macroniste/getData",
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/Chronique_anti_Macroniste/postData",
+      "method": "POST"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2024-10-21T11:12:50.645Z"
+  }
+}
