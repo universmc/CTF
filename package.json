@@ -26,10 +26,10 @@
         "start": "electron .",
         "reactTest": "npm run build",
 
-        "startC": "react-scripts start",
-        "buildC": "react-scripts build",
-        "testC": "react-scripts test",
-        "ejectC": "react-scripts eject",
+        "crypto": "react-scripts start",
+        "sh256": "react-scripts build",
+        "testR": "react-scripts test",
+        "ejectCr": "react-scripts eject",
 
         "compileSCSS": "sass --watch watch.scss src/css/fib.css",
         "CTF": "sass --watch src/scss/ctf.scss src/css/ctf1.css",
