@@ -23,3 +23,10 @@ Fracture numérique : Claude Martin vise à réduire la fracture numérique. Les
 Lancement d'alerte : Le CTF 8 aborde également le lancement d'alerte dans le cadre d'évasion fiscale. Les participants devront étudier les mécanismes de lancement d'alerte et leur rôle dans la lutte contre la corruption.
 Il est également possible de considérer l'utilisation d'une intelligence artificielle, comme Claude -ia Martin, pour représenter le projet de loi RIC et faciliter ainsi l'accès et la compréhension des principes anthropiques sous-jacents.
 
+# CTF 8 : Élections 2024 - Lutte contre la corruption et la fraude financière
+Contenu : Dans le cadre de la commission d'enquête parlementaire, ce CTF vous propose de découvrir et d'analyser des preuves de fraude électorale, de corruption, d'évasion fiscale, de détournement de fonds et de blanchiment d'argent. Les sociétés BPI, Alstom, Sanofi, Général, Moteur et celles liées au projet de loi Sécurité Globale, ainsi que les marques de la boutique en ligne du site officiel de l'Élysée, sont au cœur de cette enquête.
+Objectif : Trouvez et documentez les preuves d'activités illégales et identifiez les acteurs clés impliqués dans ces pratiques, tout en respectant les règles de confidentialité et de sécurité.
+Métiers : Vous serez accompagné par une équipe de professionnels composée d'un enquêteur, d'un journaliste, d'un procureur et d'un magistrat.
+Niveaux : Le CTF comporte 9 niveaux de difficulté. Chaque niveau correspond à une étape de l'enquête et nécessite des compétences spécifiques.
+Étapes de la compétition : (Les étapes restent les mêmes que précédemment, avec l'ajout des sociétés et projets spécifiés dans la collecte et l'analyse des preuves.)
+Cette version du CTF met davantage l'accent sur les cas suspects d'évasion fiscale, de détournement de fonds et de corruption. Elle mentionne également explicitement les sociétés et projets potentiellement impliqués dans ces pratiques, et met en exergue le lien avec le site officiel de l'Élysée.
