@@ -1,0 +1,14 @@
+/* 🤗 : bonjour Pi, comment allez Vous ?✨ */
+.formContent {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 10px;
+    width:90%;
+}
+.formulaire {
+    display:flex;
+    border:1px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,113 @@
+{
+    "workPlan": {
+      "projectTitle": "Référendum d'Initiative Citoyenne (RIC) - Plateforme de Soumission et de Vote",
+      "objective": "Permettre aux citoyens de soumettre des initiatives de vote, de les soutenir, et de participer aux processus législatifs par un référendum.",
+      "phases": [
+        {
+          "phase": "Phase 1 - Conception et Planification",
+          "description": "Définir les modalités du RIC, les fonctions civiques des citoyens, et concevoir l'architecture de la plateforme.",
+          "tasks": [
+            {
+              "task": "Définir les droits des citoyens",
+              "responsibility": "Constitutionnaliste",
+              "status": "En cours"
+            },
+            {
+              "task": "Concevoir le workflow des référendums",
+              "responsibility": "Analyste de systèmes",
+              "status": "En cours"
+            },
+            {
+              "task": "Rédiger les règles de validation des initiatives",
+              "responsibility": "Juridique",
+              "status": "Planifié"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 2 - Développement du Frontend",
+          "description": "Développer l'interface utilisateur permettant aux citoyens de soumettre des initiatives, de les afficher et de les soutenir.",
+          "tasks": [
+            {
+              "task": "Concevoir l'interface utilisateur",
+              "responsibility": "Développeur Frontend",
+              "status": "En cours"
+            },
+            {
+              "task": "Développer le formulaire de soumission des initiatives",
+              "responsibility": "Développeur Frontend",
+              "status": "Planifié"
+            },
+            {
+              "task": "Intégrer la fonctionnalité de soutien aux initiatives",
+              "responsibility": "Développeur Frontend",
+              "status": "Planifié"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 3 - Développement du Backend",
+          "description": "Développer le backend pour gérer les initiatives, les votes et les interactions avec la blockchain pour plus de transparence.",
+          "tasks": [
+            {
+              "task": "Mettre en place l'API pour la gestion des initiatives",
+              "responsibility": "Développeur Backend",
+              "status": "Planifié"
+            },
+            {
+              "task": "Intégrer un système de vote basé sur la blockchain",
+              "responsibility": "Développeur Blockchain",
+              "status": "Planifié"
+            },
+            {
+              "task": "Développer une base de données pour les initiatives",
+              "responsibility": "Développeur Backend",
+              "status": "En cours"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 4 - Tests et Validation",
+          "description": "Tester la plateforme pour s'assurer de la sécurité, de la transparence et de la conformité des fonctionnalités.",
+          "tasks": [
+            {
+              "task": "Tester la soumission des initiatives",
+              "responsibility": "QA",
+              "status": "Planifié"
+            },
+            {
+              "task": "Tester la sécurité des votes",
+              "responsibility": "Expert Sécurité",
+              "status": "Planifié"
+            },
+            {
+              "task": "Validation juridique",
+              "responsibility": "Juridique",
+              "status": "Planifié"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 5 - Lancement et Suivi",
+          "description": "Lancer la plateforme pour les citoyens et mettre en place un suivi pour améliorer les fonctionnalités.",
+          "tasks": [
+            {
+              "task": "Lancer la plateforme publique",
+              "responsibility": "Chef de projet",
+              "status": "Planifié"
+            },
+            {
+              "task": "Collecter les retours utilisateurs",
+              "responsibility": "Support Utilisateur",
+              "status": "Planifié"
+            },
+            {
+              "task": "Améliorer la plateforme en fonction des retours",
+              "responsibility": "Développeurs",
+              "status": "Planifié"
+            }
+          ]
+        }
+      ]
+    }
+  }

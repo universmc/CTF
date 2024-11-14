@@ -1,0 +1,67 @@
+[       
+    {
+    "titre": "Cours React",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Création d'un site web frontend de A à Z."
+        },
+        {
+            "sousTitre": "Apprenez à créer un site web frontend avec React en suivant ce guide étape par étape et en utilisant les conseils personnalisés de votre assistant IA",
+            "contenuMarkdown": "src/md/cours-React.md"
+        }
+    ]
+    },
+    {
+        "titre": "Introduction à React",
+        "sousSections": [
+            {
+                "sousTitre": "Comprendre les bases de React, les composants et la méthodologie JSX.",
+                "contenu": "Commencez par lire la documentation officielle React, Familiarisez-vous avec les composants et le flux de données unidirectionnel"
+            },
+            {
+                "sousTitre": "Créez votre premier composant React, Développez une simple application de liste de tâches",
+                "contenuMarkdown": "src/md/exercises2.md"
+            }
+        ]
+    },
+    {
+        "titre": "Gestion de l'état et des propriétés",
+        "sousSections": [
+            {
+                "sousTitre": "Apprenez à gérer l'état local de vos composants et à passer des données de composants parents à leurs composants enfants via des propriétés.",
+                "contenu": "'Utilisez Hooks pour gérer l'état', 'Séparez les données et les composants'"
+            },
+            {
+                "sousTitre": "Créez un composant de formulaire avec des états gestionnaires, Développez une application de recherche avec une entrée utilisateur",
+                "contenuMarkdown": "src/md/exercises3.md"
+            }
+        ]
+    },
+    {
+        "titre": "Rendu conditionnel et listes",
+        "sousSections": [
+            {
+                "sousTitre": "pprenez à afficher des éléments de manière conditionnelle et à créer des listes dynamiques de composants.",
+                "contenu": "Utilisez l'opérateur ternaire pour une meilleure lisibilité, Mappez sur des listes pour créer des éléments React"
+            },
+            {
+                "sousTitre": "Utilisez l'opérateur ternaire pour une meilleure lisibilité, Mappez sur des listes pour créer des éléments React",
+                "contenuMarkdown": "src/md/exercises4.md"
+            }
+        ]
+    },
+    {
+        "titre": "Composants à rendu serveur (SSR)",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction à l'IA",
+                "contenu": "Présentation de l'agent IA Codex GPT pour le développement fullstack."
+            },            
+            {
+                "sousTitre": "Développement Assisté par IA",
+                "contenu": "Comment NeoFS peut aider dans la génération de code front-end et back-end."
+            }
+        ]
+    }
+]

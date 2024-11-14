@@ -26,7 +26,7 @@ async function main() {
       {
         "id": 2,
         "title": "Trafic d'influence et commerce légal de fonctionnaires d'État",
-        "description": "Enquête sur l'évasion fiscale et la TVA liées à la boutique officielle de l'Élysée et à d'autres activités commerciales légales de fonctionnaires d'État.",
+        "Description": "Enquête sur l'évasion fiscale et la TVA liées à la boutique officielle de l'Élysée et à d'autres activités commerciales légales de fonctionnaires d'État.",
         "objective": "Analyser les pratiques fiscales potentiellement frauduleuses et évaluer les relations entre les partis politiques et les sponsors affiliés.",
         "tasks": [
         "Établir une liste complète des produits vendus sur la boutique officielle de l'Élysée, boutique.elysee.fr.",
@@ -43,7 +43,7 @@ async function main() {
     {
       "id": 3,
       "title": "R2D2 - L'IA au service de la justice sociale",
-      "description": "Histoire d'Alicia, une intelligence artificielle résidant dans un radar, qui lutte contre l'évasion fiscale et les infractions routières en s'appuyant sur la déontologie et les principes anthropiques.",
+      "Description": "Histoire d'Alicia, une intelligence artificielle résidant dans un radar, qui lutte contre l'évasion fiscale et les infractions routières en s'appuyant sur la déontologie et les principes anthropiques.",
       "objective": "Étudier le cas d'Alicia, analyser son impact sur la prévention des accidents de la route et de la fraude fiscale, puis proposer des solutions pour promouvoir la justice sociale en encourageant l'adoption de radars et d'IA dédiés à ces causes.",
       "tasks": [
       "Comprendre le rôle d'Alicia dans l'enquête d'affaires d'évasion fiscale et de prévention des infractions routières.",
@@ -77,7 +77,7 @@ async function main() {
         {
           "id": 5,
           "title": "Pouvoir d'Achat - Régulation et Répercussions",
-          "description": "Examen de la régulation du pouvoir d'achat effectuée par Emmanuel Macron en 2008, de ses conséquences, et de l'évolution de la situation économique jusqu'en 2024, en rapport avec les membres du G7 et les imprimeries en Europe.",
+          "Description": "Examen de la régulation du pouvoir d'achat effectuée par Emmanuel Macron en 2008, de ses conséquences, et de l'évolution de la situation économique jusqu'en 2024, en rapport avec les membres du G7 et les imprimeries en Europe.",
           "objective": "Analyser les impacts de la régulation du pouvoir d'achat sur l'économie et la population, en tenant compte des évolutions survenues entre 2008 et 2024, puis évaluer les politiques et les stratégies adoptées par les membres du G7 et les imprimeries européennes.",
           "tasks": [
           "Étudier la régulation du pouvoir d'achat en 2008, les circonstances qui l'ont entourée, et les arguments avancés pour son adoption.",
@@ -106,7 +106,7 @@ async function main() {
     {
       "id": 7,
       "title": "synpsis Elyséum",
-      "description": "Enquête sur la violence, la répression financière et la transformation de l'Élysée en centre pénitencier dans un contexte de manifestations et de révolution permanente.",
+      "Description": "Enquête sur la violence, la répression financière et la transformation de l'Élysée en centre pénitencier dans un contexte de manifestations et de révolution permanente.",
       "objective": "Analyser les causes et les conséquences de la violence, de la répression financière et de la transformation de l'Élysée en centre pénitencier, ainsi que les répercussions sur la sécurité globale et les relations avec d'autres pays européens.",
       "tasks": [
       "Étudier les événements historiques marquants en France depuis la prise de la Bastille jusqu'à la prise de l'Élysée en 2024.",
@@ -166,7 +166,7 @@ ${ctf.tasks.map((task, index) => `- ${index + 1}. ${task}`).join("\n")}
     });
 
     const mdContent = chatCompletion.choices[0]?.message?.content;
-    const fileName = `CTF_${ctf.id}_${ctf.title.replace(/ /g, "_")}.md`;
+    const fileName = `data/CTF/CTF_${ctf.id}_${ctf.title.replace(/ /g, "_")}.md`;
     fs.writeFileSync(fileName, ctfDetails + mdContent);
     console.log(`Documentation générée : ${fileName}`);
   }

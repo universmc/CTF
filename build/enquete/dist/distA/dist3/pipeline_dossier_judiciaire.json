@@ -1,0 +1,29 @@
+[
+  {
+    "titre": "Acquisition des Fondations Pasteur",
+    "sousSections": [
+      {
+        "sousTitre": "Analyse des impacts sur la recherche et le développement de vaccins",
+        "contenu": "Description : Évaluation de l'absence de vaccins produits suite à l'acquisition\nHypothèse : Sanofi n'a pas investi dans le développement de vaccins\nArticles de loi : L5121-1\nPreuves : Rapports d'acquisition, Études de R&D"
+      }
+    ]
+  },
+  {
+    "titre": "Rôle dans les Jeux Olympiques",
+    "sousSections": [
+      {
+        "sousTitre": "Étude de l'engagement financier de Sanofi",
+        "contenu": "Description : Analyse de l'impact des financements de Sanofi dans les JO sur ses investissements en santé\nHypothèse : Les fonds pour les JO ont détourné les investissements en santé publique\nArticles de loi : 432-11\nPreuves : Documents de sponsoring, Données financières"
+      }
+    ]
+  },
+  {
+    "titre": "Délocalisation de la filiale Opella",
+    "sousSections": [
+      {
+        "sousTitre": "Impact de la délocalisation sur la disponibilité des médicaments en France",
+        "contenu": "Description : Étude de l'impact de la délocalisation de la production de médicaments vers les États-Unis\nHypothèse : La délocalisation a diminué l'approvisionnement national en Doliprane\nArticles de loi : L5121-8\nPreuves : Rapports de délocalisation, Études de marché"
+      }
+    ]
+  }
+]

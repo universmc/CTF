@@ -1,0 +1,77 @@
+{
+    "components": [
+    {
+    "name": "App",
+    "description": "Créer un composant parent qui encapsule votre application et sert de point d'entrée pour les autres composants."
+    },
+    {
+    "name": "Navigation",
+    "description": "Développer un composant de navigation pour afficher les options de navigation et les liens vers les différentes sections de la page. Utiliser des liens ou des boutons pour la navigation."
+    },
+    {
+    "name": "Introduction",
+    "description": "Concevoir un composant de présentation qui présente le projet Match in Learning et explique son objectif. Inclure du texte, des images ou des vidéos pour illustrer l'idée principale."
+    },
+    {
+    "name": "DevelopmentSteps",
+    "description": "Créer un composant d'étapes pour afficher les étapes de développement et leur progression. Utiliser une liste ordonnée ou une timeline pour afficher les étapes de manière claire."
+    },
+    {
+    "name": "Rewards",
+    "description": "Mettre en place un composant de récompenses pour afficher les récompenses obtenues grâce à umcTokens.sol. Utiliser des cartes, des badges ou des icônes pour représenter les récompenses."
+    },
+    {
+    "name": "Profile",
+    "description": "Développer un composant de profil utilisateur qui permet aux utilisateurs de mettre à jour leur profil et de définir des préférences de recherche. Inclure une section \"Historique\" ou \"Activité\" pour afficher l'historique des interactions de l'utilisateur."
+    },
+    {
+    "name": "Chat",
+    "description": "Choisir l'approche qui correspond le mieux à votre vision de l'application et implémenter un composant de chat. Si vous optez pour un chat en direct intégré, utilisez des outils comme Socket.IO pour gérer les communications en temps réel."
+    },
+    {
+    "name": "RewardsDashboard",
+    "description": "Concevoir un tableau de bord de récompenses pour visualiser les récompenses et les progrès. Utiliser des graphiques et des animations pour rendre le tout visuellement attrayant. Implémenter un système de classement pour créer une saine compétition et encourager les utilisateurs à progresser."
+    },
+    {
+    "name": "Header",
+    "description": "Créer un composant d'en-tête qui contient le titre de la page, la barre de navigation, les icônes de médias sociaux et d'autres informations importantes en-tête. Utiliser des éléments flexbox ou grid pour la mise en page de l'en-tête."
+    },
+    {
+    "name": "NavBar",
+    "description": "Développer un composant de barre de navigation pour fournir une navigation rapide entre les sections de la page. Utiliser des icônes ou des boutons pour identifier les différentes sections de la page."
+    },
+    {
+    "name": "HeroSection",
+    "description": "Concevoir un composant de section d'héros pour introduire le site ou le produit avec un contenu d'accroche, une image ou une vidéo de fond, un titre, un sous-titre et un bouton d'appel à l'action. Utiliser des techniques de mise en page CSS pour créer un design attrayant."
+    },
+    {
+    "name": "FeatureSection",
+    "description": "Créer un composant de section de fonctionnalités pour mettre en avant les fonctionnalités principales, avantages ou services avec des icônes, des titres et des descriptions. Utiliser une grille ou une liste pour afficher les fonctionnalités."
+    },
+    {
+    "name": "Testimonials",
+    "description": "Développer un composant de témoignages pour partager les témoignages de clients ou d'utilisateurs avec leurs photos de profil, noms, titres et témoignages. Utiliser des cartes ou une liste pour présenter les témoignages."
+    },
+    {
+    "name": "Pricing",
+    "description": "Mettre en place un composant de tarification pour afficher les options tarifaires avec les niveaux de tarification, les fonctionnalités incluses et les prix. Utiliser des tableaux ou des cartes pour présenter les différentes offres."
+    },
+    {
+    "name": "ContactForm",
+    "description": "Créer un composant de formulaire de contact pour gérer les formulaires de contact permettant d'envoyer des messages ou des demandes de renseignements. Utiliser une bibliothèque de gestion de formulaires pour simplifier la validation des données."
+    },
+    {
+    "name": "Footer",
+    "description": "Concevoir un composant de pied de page qui contient les liens vers d'autres pages, les politiques de confidentialité et d'utilisation du site, les informations de contact et les icônes de médias sociaux. Utiliser des éléments flexbox ou grid pour la mise en page du pied de page."
+    }
+    ],
+    "dataFlow": {
+    "API": "Une API RESTful bien documentée pour gérer les interactions entre le frontend et le backend",
+    "authentication": "Implémenter une authentification et une autorisation sécurisées pour protéger les données sensibles de vos utilisateurs"
+    },
+    "technologies": {
+    "frontendFrameworks": "React, Vue.js, Angular",
+    "backendFrameworks": "Express.js, Koa.js, Hapi.js"
+    }
+}
+        

@@ -1,0 +1,45 @@
+{
+    "tasks": [
+      {
+        "title": "Définir les objectifs SMART du projet",
+        "phase": "Phase 1$",
+        "status": "En cours",
+        "due_date": "2024-01-15",
+        "responsible": "MC",
+        "dependencies": []
+      },
+      {
+        "title": "Préparer l'environnement de développement",
+        "phase": "Phase 1$",
+        "status": "À faire",
+        "due_date": "2024-01-20",
+        "responsible": "Martin",
+        "dependencies": ["Définir les objectifs SMART du projet"]
+      },
+      {
+        "title": "Conception de l'architecture backend",
+        "phase": "Phase 2$",
+        "status": "À faire",
+        "due_date": "2024-01-30",
+        "responsible": "MC",
+        "dependencies": ["Définir les objectifs SMART du projet"]
+      },
+      {
+        "title": "Création de la structure srcript.scss HTML/CSS/JS/JSON",
+        "phase": "Phase 4$",
+        "status": "À faire",
+        "due_date": "2024-02-15",
+        "responsible": "Martin",
+        "dependencies": ["Conception de l'architecture backend"]
+      },
+      {
+        "title": "Test complet de l'application",
+        "phase": "Phase 5$",
+        "status": "À faire",
+        "due_date": "2024-03-10",
+        "responsible": "QA Team",
+        "dependencies": ["Intégration des API avec le Frontend"]
+      }
+    ]
+  }
+  

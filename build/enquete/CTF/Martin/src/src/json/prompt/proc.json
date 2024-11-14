@@ -1,0 +1,96 @@
+{
+    "projet": {
+      "titre": "Développement d'un site web HowTo avec React et IA",
+      "description": "Plan détaillé pour la création d'un site web tutoriel.",
+      "client": "Entreprise X",
+      "responsable": "neoFS_Pibot",
+      "dateDebut": "2023-11-01",
+      "dateFinPrevue": "2024-02-28"
+    },
+    "etapes": [
+      {
+        "id": 1,
+        "titre": "Configuration de l'environnement",
+        "description": "Mise en place de l'environnement de développement.",
+        "taches": [
+          "Installer Node.js et npm",
+          "Créer un projet React",
+          "Configurer un éditeur de code"
+        ],
+        "statut": "terminée",
+        "dateDebut": "2023-11-02",
+        "dateFin": "2023-11-03"
+      },
+      {
+        "id": 2,
+        "titre": "Création de l'application React",
+        "description": "Développement de la structure de base de l'application.",
+        "taches": [
+          "Structurer les composants",
+          "Implémenter la navigation",
+          "Configurer le routage"
+        ],
+        "statut": "en cours"
+      },
+      {
+        "id": 3,
+        "titre": "Familiarisation avec React",
+        "description": "Apprentissage des concepts clés de React.",
+        "taches": [
+          "Comprendre JSX",
+          "Maîtriser les composants",
+          "Utiliser l'état et les props"
+        ]
+      },
+      {
+        "id": 4,
+        "titre": "Intégration de l'IA",
+        "description": "Intégration de fonctionnalités d'intelligence artificielle.",
+        "taches": [
+          "Choisir un service d'IA",
+          "Intégrer l'API",
+          "Développer les fonctionnalités"
+        ]
+      },
+      {
+        "id": 5,
+        "titre": "Création des designs",
+        "description": "Conception de l'interface utilisateur.",
+        "taches": [
+          "Créer des maquettes",
+          "Choisir une bibliothèque de composants UI",
+          "Implémenter le design"
+        ]
+      },
+      {
+        "id": 6,
+        "titre": "Développement des composants React",
+        "description": "Développement des composants réutilisables.",
+        "taches": [
+          "Structurer les composants",
+          "Styliser les composants",
+          "Optimiser les performances"
+        ]
+      },
+      {
+        "id": 7,
+        "titre": "Création du contenu HowTo",
+        "description": "Création et organisation du contenu.",
+        "taches": [
+          "Définir la structure du contenu",
+          "Créer les tutoriels",
+          "Optimiser le contenu pour le SEO"
+        ]
+      },
+      {
+        "id": 8,
+        "titre": "Module CRUD personnalisé",
+        "description": "Développement d'un module pour gérer les données.",
+        "taches": [
+          "Choisir une base de données",
+          "Développer les opérations CRUD",
+          "Intégrer le module dans l'application"
+        ]
+      }
+    ]
+  }

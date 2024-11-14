@@ -1,0 +1,41 @@
+.card-contenair {
+    height: 80%;
+    align-items: center;
+    margin:25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    width:255px;
+    height: 155px;
+}
+
+.iO-output {
+    border:solid black 1px;
+    border-radius:5%;
+    height: 100%;
+    width:65%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.Io-input {
+    border:solid black 1px;
+    border-radius:5%;
+    height: 100%;
+    width:34%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

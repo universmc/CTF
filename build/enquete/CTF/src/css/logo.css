@@ -1,0 +1,29 @@
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  #pi-logo {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #network {
+    animation: network-animation 2s infinite ease-in-out;
+  }
+  
+  @keyframes network-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

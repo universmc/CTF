@@ -1,0 +1,197 @@
+{
+    "curriculum_vitae": {
+      "identification": {
+        "IDX": "Temoin_X_",
+        "cncffp": "1113.json_GILLET_JAUNE",
+        "first_name": "MARTIN",
+        "last_name": "HORIZONS",
+        "contact_information": {
+          "email": "hubmaster74@gmail.com",
+          "phone": "+33613763976",
+          "Crypto": "Pi.coin",
+          "webSite": "https://boutique.elysee.fr",
+          "linkedin": "https://linkedin.com/in/johndoe",
+          "github": "https://github.com/universmc/2024_UMP",
+          "baddge": "https://g.dev/universmc"
+        }
+      },
+      "summary": "Développeur Fullstack avec une expertise en JavaScript, Node.js, et IA. Passionné par les nouvelles technologies et l'optimisation des systèmes complexes.",
+      "experience": [
+        {
+          "title": "Développeur Fullstack",
+          "company": "Umc TechCorp",
+          "start_date": "2020-06-01",
+          "end_date": "2023-07-01",
+          "responsibilities": [
+            "Conception et développement d'applications web avec Node.js et React.",
+            "Implémentation de solutions cloud avec AWS et Docker.",
+            "Collaboration avec les équipes produit pour améliorer les fonctionnalités."
+          ],
+          "achievements": [
+            "Réduction des temps de chargement de l'application de 30%.",
+            "Automatisation des processus de déploiement CI/CD."
+          ]
+        },
+        {
+          "title": "Data Scientist",
+          "company": "DataSolutions",
+          "start_date": "2017-05-01",
+          "end_date": "2020-05-01",
+          "responsibilities": [
+            "Analyse des données clients pour des prédictions d'achat.",
+            "Utilisation de modèles d'apprentissage automatique pour améliorer les ventes."
+          ],
+          "achievements": [
+            "Augmentation des taux de conversion de 15% via des recommandations IA."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "JavaScript",
+          "level": "Expert",
+          "projects": [
+            {
+              "name": "Application E-commerce",
+              "description": "Développement d'un site e-commerce avec React et Node.js.",
+              "technologies": ["React", "Node.js", "MongoDB"]
+            }
+          ]
+        },
+        {
+          "name": "Node.js",
+          "level": "Expert",
+          "projects": [
+            {
+              "name": "API Restful",
+              "description": "Création d'une API pour la gestion d'utilisateurs et d'authentification.",
+              "technologies": ["Node.js", "Express", "JWT"]
+            }
+          ]
+        },
+        {
+          "name": "Intelligence Artificielle",
+          "level": "Intermédiaire",
+          "projects": [
+            {
+              "name": "Système de recommandations",
+              "description": "Implémentation d'un système de recommandations basé sur des algorithmes de machine learning.",
+              "technologies": ["Python", "TensorFlow", "scikit-learn"]
+            }
+          ]
+        }
+      ],
+      "education": [
+        {
+          "degree": "Master en Informatique",
+          "institution": "Université XYZ",
+          "start_date": "2015-09-01",
+          "end_date": "2017-06-01",
+          "description": "Spécialisation en intelligence artificielle et développement logiciel."
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certification AWS",
+          "issued_by": "Amazon Web Services",
+          "date_issued": "2021-08-01",
+          "expiry_date": "2024-08-01"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Français",
+          "level": "Langue Maternelle"
+        },
+        {
+          "language": "Anglais",
+          "level": "Courant"
+        }
+      ],
+      "projects": [
+        {
+          "name": "référendum d'initiative citoyenne",
+          "sigle": "RIC",
+          "legal": "cnccfp",
+          "description": "Développement Du protocole législatif, juridique, exécutive l'exercice de la fonction Constitutionnel du droit de vote",
+          "technologies": ["JavaScript", "Node.js", "TensorFlow"],
+          "status": "En cours"
+        }
+      ],
+      "tasks": [
+        {
+          "title": "Optimiser les performances du modèle IA",
+          "status": "En cours",
+          "priority": "Haute",
+          "assigned_to": "MC",
+          "due_date": "2024-12-31",
+          "steps": [
+            "Analyser le modèle actuel pour identifier les goulets d'étranglement.",
+            "Appliquer des techniques de régularisation et d'optimisation.",
+            "Effectuer des tests de performance sur les environnements de production."
+          ]
+        }
+      ]
+    },
+    "algorithm_identity": {
+      "author": {
+        "name": "Mickael",
+        "alias": "AlgoGenesis",
+        "role": "Développeur Fullstack / IA Assistante",
+        "identity": {
+          "type": "Algorithme",
+          "version": "1.0.0",
+          "language": ["JavaScript", "Solidity", "Python", "Node.js", "Groq-SDK"]
+        },
+        "goals": {
+          "short_term": "Optimiser les workflows de développement et de production multimédia.",
+          "long_term": "Créer une plateforme d'apprentissage et de développement automatisée avec IA."
+        }
+      },
+      "skills": {
+        "frontend": ["HTML", "CSS", "JavaScript", "React"],
+        "backend": ["Node.js", "Express", "MongoDB"],
+        "blockchain": ["Solidity", "Smart Contracts"],
+        "AI_tools": ["OpenAI", "Groq-SDK", "TensorFlow"],
+        "automation": ["Electron", "FFmpeg", "Makefile"],
+        "video_creation": ["DaVinci Resolve", "Adobe Premiere"]
+      },
+      "objectives_SMART": {
+        "specific": "Créer une plateforme de développement multimédia automatique.",
+        "measurable": "Achèvement des phases du projet selon un plan Gantt.",
+        "achievable": "Utilisation des compétences disponibles et des outils IA avancés.",
+        "relevant": "Permettre l'automatisation et l'amélioration continue de la création web et vidéo.",
+        "time_based": "Terminer la première phase du projet d'ici fin 2024."
+      },
+      "current_projects": [
+        {
+          "name": "IMAGINE+ WebSiteMakers",
+          "description": "Plateforme pour générer des sites web optimisés via IA.",
+          "status": "En développement",
+          "technologies": ["Node.js", "Electron", "Groq-SDK", "HTML5"],
+          "goal": "Terminer l'automatisation du backend et frontend avec génération d'UI intelligente."
+        },
+        {
+          "name": "ShortVideoValue",
+          "description": "Système de gestion de vidéos courtes sur la blockchain.",
+          "status": "Phase 2 : Test et intégration.",
+          "technologies": ["Solidity", "Smart Contracts", "IPFS"]
+        }
+      ],
+      "custom_modes": {
+        "presentation_style": "Minimaliste et Technique",
+        "preferred_formats": ["JSON", "Markdown", "HTML5"],
+        "workflow_automation": {
+          "tools": ["Makefile", "Electron", "Docker"],
+          "steps": ["build", "test", "deploy"]
+        },
+        "video_creation": {
+          "format": "SHORT",
+          "length": "15-30 seconds",
+          "theme": "AI-driven learning",
+          "segments": 5
+        }
+      }
+    }
+  }
+  

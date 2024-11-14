@@ -1,0 +1,24 @@
+[
+    {
+    "date": "2022-03-01",
+    "heure": "14:30",
+    "lieu": "Siège du parti",
+    "type": "Réunion de la commission d'enquête",
+    "membres_présents": [
+    "Jean Dupont",
+    "Marie Durand",
+    "Jacques Martin"
+    ],
+    "ordre_du_jour": [
+    "Examen des preuves recueillies",
+    "Analyse des PV de l'enquête",
+    "Visionnage des vidéos de répression lors des manifestations",
+    "Audition des témoins"
+    ],
+    "décisions": [
+    "Déposer une plainte auprès de la Cour de justice pour corruption de la justice et abus de pouvoir",
+    "Organiser une conférence de presse pour informer l'opinion publique sur les manipulations politiques et les violations du consentement démocratique",
+    "Demander une enquête parlementaire pour faire la lumière sur les allégations de fraude politique"
+    ]
+    }
+    ]
